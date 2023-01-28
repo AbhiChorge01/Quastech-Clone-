@@ -1,0 +1,294 @@
+
+
+#header1{
+    width: 100%;
+    height:50px;
+    background-color:#0051ff;
+    position:absolute;
+    top:0px;
+    left:0px;
+    overflow: visible;
+    float:right;
+}
+
+#solids{
+    width:18px;
+    height:15px;
+}
+
+#left_top{
+    width:50%;
+    height:40px;
+    color:white;
+    padding-left: 35px;
+    font-family: Sans-serif;
+    font-size: 16px;
+}
+
+#solidtext:hover{
+    color:yellowgreen;
+}
+
+#right_top{
+    width:50%;
+    height:50px;
+    float:right;
+    position:inherit;
+    top:0px;
+    left:50%;
+    margin:0px;
+    padding:0px;
+}
+
+
+#fa-brands{
+    width:10px;
+    height:15px;
+    padding:4px 10px;
+    margin:0px;
+    border:solid 1px;
+    border-color:black;
+    color:white;
+    background-color: chocolate;
+}
+
+#fa-brands:hover{
+    background-color:#0051ff;
+    color:white;
+    border:solid 1px;
+    border-radius:2px;
+}
+
+#brands{
+    float:right;
+    padding-right: 20px;
+}
+
+#header2{
+    width:100%;
+    height:70px;
+    float:bottom;
+    padding:0px;
+    margin-top:50px;
+}
+
+#logo{
+    width:215px;
+    height:65px;
+    padding-left: 90px;
+    padding-top:22px;
+}
+
+b{
+    font-weight: lighter;
+}
+
+#bold{
+    width:74%;
+    height:65px;
+    float:right;
+    padding-top: 45px;
+}
+
+.bold{
+    width: fit-content;
+    height:60px;
+    float:left;
+    font-size: 18px;
+    margin-left:54px;
+    font-family: Sans-serif;
+}
+
+#bold-line{
+    height:2px;
+    background-color:black;
+    opacity: 0;
+}
+
+@keyframes color{
+    0%{background-color: #0051ff;}
+    100%{background-color: #0051ff;}
+}
+
+
+b:hover{
+    color:#0051ff;
+    
+}
+
+
+#img1{
+    width:100%;
+    height:530px;
+    background-image: url('banner1.jpg');
+    padding:0px;
+    margin:0px;
+}
+
+#img-para{
+    text-align: center;
+    padding-top: 100px;
+    font-style:normal;
+}
+
+#para-p1{
+    font-size: 55px;
+    text-align: center;
+    padding-top: 170px;
+    font-family:Sans-serif;
+    color:white;
+    font-style:normal;
+}
+
+#para-p2{
+    font-size:20px;
+    text-align: center;
+    font-style:normal;
+}
+
+.green{
+    width:70%;
+    height:1375px;
+    margin-left:15%;
+    text-align:center;
+    padding-top:10px;
+    
+ }
+ #green{
+    color:lightgreen;
+    font-size:20px;
+    font-family:Sans-serif;
+ }
+ #black{
+    font-size:13px;
+    font-family:Sans-serif;
+ }
+ #middle{
+    width:10%;
+    background-color:black;
+    border-color:black;
+ }
+ #small{
+    font-size:9px;
+    text-align:justify;
+    font-family:Sans-serif;
+ }
+ #services{
+    text-align:center;
+    color:lightgreen;
+    font-family:Sans-serif;
+ }
+ #maindiv{
+    width:100%;
+    height:250px;
+    float:right;
+ }
+ .innerdiv{
+    width:32.9%;
+    height:250px;
+    text-align:justify;
+    float:left;
+    border:solid 1px black;
+ }
+
+ #monitor{
+    width:15px;
+    height:15px;
+    padding-top:4px;
+    padding-left:4px;
+ }
+ #blue{
+    color:blue;
+    padding-left:4px;
+    font-family:Sans-serif;
+ }
+ #black{
+    padding-left:4px;
+    font-family:Sans-serif;
+ }
+ #innerlower{
+    padding-left:4px;
+    font-family:Sans-serif;
+    font-size:14px;
+ }
+ #training{
+    width:100%;
+    height:750px;
+    margin-top:40px;  
+ }
+ #trainingpara{
+    font-family:Sans-serif;
+    font-size:14px;
+ }
+ #row{
+    text-align:center;
+    font-family:Sans-serif
+ }
+ .row{
+    width:120px;
+    height:150px;
+    margin:21px 70px;
+    border:solid 0.5px;
+    border-color:black;
+    box-shadow:2px 2px 2px 2px;
+    padding-top:5px;
+    font-weight:bold;
+ }
+ .row:hover{
+    background-color:lightgreen;
+ }
+ #blueimg{
+    width:35px;
+    height:35px;
+    font-size: 25px;
+ }
+ #contact{
+    width:100%;
+    height:400px;
+    background-color:black;
+    margin:0px;
+ }
+ .contact{
+    width:70%;
+    height:370px;
+    margin-left:15%;
+ }
+ #descriptionlist{
+    width:250px;
+    height:280px;
+    margin:9px;
+ }
+ h4{
+    color:white;
+    padding-left:5px;
+ }
+ #location{
+    width:15px;
+    height:15px;
+    margin-top:5px;
+    color:white;
+    padding:2px;
+ }
+ #thane{
+    color:lightgreen;
+    font-size:12px;
+    font-family:Sans-serif;
+ }
+ #mail{
+    color:white;
+    font-size:12px;
+    font-weight:normal;
+    font-family:Sans-serif;
+ }
+ .mail{
+    color:lightgreen;
+    font-size:12px;
+    font-weight:normal;
+    font-family:Sans-serif;
+ }
+ .mail2{
+    color:white;
+    font-size:12px;
+    font-weight:normal;
+    font-family:Sans-serif;
+ }
